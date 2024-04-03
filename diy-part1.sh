@@ -19,4 +19,3 @@ sed -i '1i src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 sed -i '1i src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
 git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
 git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
